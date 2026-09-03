@@ -20,7 +20,7 @@ This project models a simple sales database with customers, products, orders, an
 - Which category sells the most units?
 
 ## Sample Result
-![Revenue per product](screenshots/revenue_per_product.png)
+![Revenue per product](results/revenue_per_product.csv)
 
 ## Tools Used
 Supabase, PostgreSQL, SQL
