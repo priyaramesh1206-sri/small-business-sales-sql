@@ -1,0 +1,13 @@
+order_id,customer_id,order_date,status
+1,1,2026-06-02,Completed
+2,2,2026-06-05,Completed
+3,3,2026-06-07,Completed
+4,1,2026-06-15,Completed
+5,4,2026-06-20,Cancelled
+6,5,2026-07-01,Completed
+7,6,2026-07-03,Completed
+8,2,2026-07-10,Completed
+9,7,2026-07-15,Completed
+10,8,2026-07-18,Completed
+11,3,2026-08-02,Completed
+12,5,2026-08-10,Completed
