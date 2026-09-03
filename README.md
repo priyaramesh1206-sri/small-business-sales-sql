@@ -5,10 +5,13 @@ A SQL project analyzing sales data for a small business, built using Supabase (P
 ## Overview
 This project models a simple sales database with customers, products, orders, and order items, then answers key business questions using SQL.
 
-## Files
-- `schema.sql` – table definitions and relationships
-- `sample_data.sql` – sample data (also available as CSVs)
-- `queries.sql` – analysis queries
+## Structure
+- `sql/schema.sql` – table definitions and relationships
+- `sql/sample_data.sql` – sample data inserts
+- `sql/queries.sql` – analysis queries
+- `data/` – raw input CSVs
+- `results/` – query output CSVs
+- `screenshots/` – visual results from Supabase
 
 ## Key Questions Answered
 - What is the total revenue per product?
@@ -17,7 +20,7 @@ This project models a simple sales database with customers, products, orders, an
 - Which category sells the most units?
 
 ## Sample Result
-![Revenue per product](revenue_per_product.png)
+![Revenue per product](screenshots/revenue_per_product.png)
 
 ## Tools Used
 Supabase, PostgreSQL, SQL
